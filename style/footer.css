@@ -1,0 +1,77 @@
+div#footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+}
+
+div.footer-info, div.footer-link, div.footer-social {
+    display: inline-block;
+    color: #FFFCF2;
+    padding: 15px;
+    width: calc(100% / 4);
+    height: auto;
+    margin: 5px;
+}
+
+div.footer-info h2, div.footer-link h2, div.footer-social h2 {
+    text-align: center;
+}
+
+div.footer-info {
+    text-align: left;
+}
+
+div.footer-link div {
+    display: block;
+    text-align: center;
+}
+
+div.footer-link a {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFCF2;
+}
+
+div.footer-social {
+    text-align: center;
+}
+
+div.social-list {
+    text-align: center;
+}
+
+div.social-list i {
+    font-size: 28px;
+    padding: 10px;
+    margin: 0;
+}
+
+div.social-list i:hover {
+    cursor: pointer;
+    scale: 1.4;
+}
+
+@media screen and (max-width: 800px) {
+    div#footer {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    div.footer-info, div.footer-link, div.footer-social {
+        display: block;
+        color: #FFFCF2;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    div.footer-info h2, div.footer-link h2, div.footer-social h2 {
+       text-align: center;
+    }
+}   

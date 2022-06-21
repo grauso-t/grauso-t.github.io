@@ -1,0 +1,14 @@
+<script>
+    if (document.documentElement.clientWidth > 900)
+        $("div#navbar-menu").show();    
+    else
+        $("div#navbar-menu").hide();
+</script>
+
+<div id="button-mobile-show-menu"><i class="fa-solid fa-bars" onclick="showMenu()"></i></div>
+<div id="navbar-menu">
+    <div class="navbar-item"><a href=""><i class="fa-solid fa-house"></i>HomePage</a></div>
+    <div class="navbar-item"><a href=""><i class="fa-solid fa-list-check"></i>Projects</a></div>
+    <div class="navbar-item"><a href=""><i class="fa-solid fa-envelope"></i>Contact</a></div>
+    <div class="navbar-item"><a href=""><i class="fa-solid fa-circle-info"></i>About</a></div>
+</div>
