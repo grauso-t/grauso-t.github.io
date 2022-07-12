@@ -57,20 +57,19 @@ i.fa-solid {
         display: block;
         position: fixed;
         z-index: 1;
-        background-color: #0F1A20;
         text-align: right;
     }
     
     div#button-mobile-show-menu i {
         box-sizing: border-box;
         height: 50px;
-        margin: 10px 10px;
+        margin: 0 10px;
         color: #FFFCF2;
         font-size: 30px;
     }
     
     div#navbar-menu {
-        top: 60px;
+        top: 50px;
         display: block;
         position: fixed;
         z-index: 1;
@@ -82,7 +81,7 @@ i.fa-solid {
     
     div.navbar-item {
         border-radius: 10px;
-        margin: 8px auto;
+        margin: 0 auto 10px auto;
         display: block;
         background-color: #FFFCF2;
         text-align: center;

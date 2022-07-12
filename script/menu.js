@@ -11,5 +11,5 @@ window.onresize = function(event) {
 };
 
 function showMenu() {
-    $("div#navbar-menu").slideToggle();
+    $("div#navbar-menu").fadeToggle("fast");
 }
