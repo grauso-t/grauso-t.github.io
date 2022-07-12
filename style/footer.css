@@ -34,6 +34,10 @@ div.footer-link a {
     color: #FFFCF2;
 }
 
+div.footer-link a:hover {
+    color: #FF1B1C;
+}
+
 div.footer-social {
     text-align: center;
 }
@@ -43,12 +47,14 @@ div.social-list {
 }
 
 div.social-list i {
+    color: #FFFCF2;
     font-size: 28px;
     padding: 10px;
     margin: 0;
 }
 
 div.social-list i:hover {
+    color: #FF1B1C;
     cursor: pointer;
     scale: 1.4;
 }
