@@ -67,19 +67,27 @@ div.currentPage {
         height: auto;
         text-align: right;
         color: #FFFCF2;
-        padding: 5px;
+        padding: 10px;
         box-sizing: border-box;
     }
     
     i.fa-bars {
         cursor: pointer;
-        margin-right: 10px;
+        margin: 10px;
     }
     
     div#navbar-menu {
         width: 100%;
         height: 100vh;
         display: block;
+    }
+    
+    div.mobile-menu {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        transform: translate(0, -50%);
+        top: 50%;
     }
     
     div.navbar-item {
