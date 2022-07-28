@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$("nav#navbar").ready(function() {
     $("nav#navbar").load("/resources/navbar.html", function() {
 
         let currentPage = document.title;
@@ -10,18 +10,25 @@ $(document).ready(function() {
             }
         });
     });
+});
 
+$("footer#footer").ready(function() {
     $("footer#footer").load("/resources/footer.html");
 });
 
 window.onresize = function(event) {
 
-    if (document.documentElement.clientWidth > 600)
+    if (document.documentElement.clientWidth > 600) {
         $("div#navbar-menu").show();
-    else
+        $("div.mobile-menu").show();
+    }
+    else {
         $("div#navbar-menu").hide();
+        $("div.mobile-menu").hide();
+    }
 };
 
 function showMenu() {
     $("div#navbar-menu").fadeToggle("fast");
+    $("div.mobile-menu").fadeToggle("fast");
 }

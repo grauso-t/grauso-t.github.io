@@ -41,8 +41,14 @@ div.currentPage {
 @media only screen and (max-width: 900px) {
     div#navbar-menu {
         width: 100%;
-        display: flex;
+    }
+    
+    div.mobile-menu {
         justify-content: center;
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: auto;
     }
     
     div.navbar-item {
@@ -79,10 +85,11 @@ div.currentPage {
     div#navbar-menu {
         width: 100%;
         height: 100vh;
-        display: block;
+        display: none;
     }
     
     div.mobile-menu {
+        display: none;
         position: absolute;
         width: 100%;
         height: auto;
