@@ -94,7 +94,7 @@ div.currentPage {
         width: 100%;
         height: auto;
         transform: translate(0, -50%);
-        top: 50%;
+        top: 40%;
     }
     
     div.navbar-item {
