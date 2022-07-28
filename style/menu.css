@@ -14,7 +14,7 @@ div.navbar-item {
     width: 200px;
     text-align: center;
     display: inline-block;
-    line-height: 50px;
+    padding: 15px;
     height: 50px;
     box-sizing: border-box;
     border-radius: 15px;
@@ -94,7 +94,7 @@ div.currentPage {
         width: 100%;
         height: auto;
         transform: translate(0, -50%);
-        top: 50%;
+        top: 40%;
     }
     
     div.navbar-item {
