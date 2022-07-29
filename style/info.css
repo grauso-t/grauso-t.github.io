@@ -1,0 +1,69 @@
+div.programming-language {
+	margin-top: 20px;
+}
+
+p.programming-language-text {
+	display: inline-block;
+	margin-left: 100px;
+	padding: 10px;
+	color: #FFFCF2;
+	font-size: 25px;
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 42px #0fa,
+		0 0 82px #0fa,
+		0 0 92px #0fa,
+		0 0 102px #0fa,
+		0 0 151px #0fa;
+}
+
+div.web-development-languages {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+div.development-languages {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+div.database-languages {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+img.language {
+	width: 150px;
+	border-radius: 50%;
+	margin: auto 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	p.programming-language-text {
+		margin: 0;
+	}
+
+	div.web-development-languages {
+		display: block;
+		text-align: center;
+	}
+
+	div.development-languages {
+		display: block;
+		text-align: center;
+	}
+
+	img.language {
+		margin-top: 20px;
+	}
+
+	div.database-languages {
+		display: block;
+		text-align: center;
+	}
+}

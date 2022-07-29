@@ -5,7 +5,7 @@ $("nav#navbar").ready(function() {
     
         $(".navbar-item").each(function() {
     
-            if (currentPage === (this.getAttribute("data-item-type"))) {
+            if (currentPage.includes(this.getAttribute("data-item-type"))) {
                 $(this).closest("div").addClass("currentPage");
             }
         });
